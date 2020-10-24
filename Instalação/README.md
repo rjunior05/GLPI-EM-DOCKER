@@ -42,6 +42,8 @@ Executando os containers
 
 Para acesar o GLPI acesse http://<seu_ip>
 
+### Configurando GLPI
+
 #### host: mysql
 
 #### usuario: glpi_user
