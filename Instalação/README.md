@@ -7,7 +7,7 @@ Atualize seu Sistema Operacional;
 
 Instalando o docker:
 
-curl -fsSL https://get.docker.com | sh
+#### curl -fsSL https://get.docker.com | sh
 
 Instalando do docker-compose
 
