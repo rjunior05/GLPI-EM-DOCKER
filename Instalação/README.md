@@ -31,10 +31,10 @@ Criando diretório para presistencia de dados e baixando o repositório
 #### cd GLPI 
 
 #### mkdir -p ./var/www/html/glpi \
-         #### ./var/lib/mysql
+         ./var/lib/mysql
 
 #### chown 472:472 ./var/lib/mysql \
-              #### ./var/lib/mysql 
+              ./var/lib/mysql 
               
 Executando os containers
 
