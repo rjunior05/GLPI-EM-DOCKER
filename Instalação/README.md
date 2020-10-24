@@ -15,41 +15,41 @@ Instalando do docker-compose
 
 Para verificar o status do docker execute o comando abaixo;
 
-sudo systemctl status docker
+#### sudo systemctl status docker
+
 Caso queira verificar a versão do docker que foi instalado, execute o comando;
 
 #### docker –version
 
-#### Criando diretório para presistencia de dados e baixando o repositório
+Criando diretório para presistencia de dados e baixando o repositório
 
-mkdir opt
-cd /opt 
+#### mkdir opt
+#### cd /opt 
 
-git clone https://github.com/ricardo98365/GLPI.git
+#### git clone https://github.com/ricardo98365/GLPI.git
 
-cd GLPI 
+#### cd GLPI 
 
-mkdir -p ./var/www/html/glpi \
-         ./var/lib/mysql
+#### mkdir -p ./var/www/html/glpi \
+         #### ./var/lib/mysql
 
-chown 472:472 ./var/lib/mysql \
-              ./var/lib/mysql 
+#### chown 472:472 ./var/lib/mysql \
+              #### ./var/lib/mysql 
               
-#### Executando os containers
+Executando os containers
 
-docker-compose up -d
+#### docker-compose up -d
+
 Para acesar o GLPI acesse http://<seu_ip>
 
-#### Configurando GLPI
+#### host: mysql
 
-host: mysql
+#### usuario: glpi_user
 
-usuario: glpi_user
+#### senha: glpi
 
-senha: glpi
+GLPI
 
-#### GLPI
+#### usuario: glpi
 
-usuario: glpi
-
-senha: glpi
+#### senha: glpi
